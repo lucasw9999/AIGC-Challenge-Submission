@@ -1,26 +1,31 @@
 # Mood Board Notes — Style Descriptor Strings
 
-These strings must be appended to every Veo3 prompt for the matching vignette.
+These strings are appended to every Veo 3.1 prompt to keep the visual look consistent across the film. Every shot — present-day and memory alike — is rendered as photorealistic cinematic live-action. The only difference between present and memory is a subtle warm haze in the memory shots that signals recollection without stylizing the image.
 
-## Frame (Bay Area / transit / Sunrise at FlatIrons)
-"semi-realistic cinematic style, warm golden hour lighting, shallow depth of field, soft window light, naturalistic color grade, gentle camera motion, film grain, Chloé Zhao aesthetic"
+## Present-day scenes (Bay Area home, transit, Sunrise at FlatIrons interior)
 
-## Australia (watercolor)
-"hand-painted 2D watercolor animation, flat painterly rendering with no 3D depth, in the style of The Red Turtle and Studio Ghibli watercolor backgrounds, soft pastel palette, visible paper texture and wet-edge brushstrokes across the ENTIRE frame including skin and objects, impressionistic loose edges, dreamlike memory quality, sun-drenched seaside tones, 2D animated film aesthetic, NOT photorealistic, NO photographic skin, NO 3D lighting, NO depth-of-field blur, NO torn-paper border effect — the watercolor is the medium governing every pixel, not a frame around a photo"
+Used for shots 01, 02, 03, 04, 14, 15, 16.
 
-## China (ink-wash / shui-mo)
-"traditional Chinese ink-wash painting (shui-mo) style, monochrome with a single red accent, calligraphic brush strokes, soft bleeding ink on rice paper, minimalist composition, jasmine motif, still contemplative mood"
+```
+photorealistic cinematic realism, live-action film quality, warm naturalistic color grade, shallow depth of field, authentic human expressions and real human skin, natural lighting, subtle film grain, Chloé Zhao aesthetic
+```
 
----
+## Memory scenes (Australia preschool, China market, Colorado slope)
 
-## Image Source Attributions
+Used for shots 05–13. Identical to the present-day descriptor plus a subtle warmth phrase that reads as "memory" to the viewer without making the image stylized:
 
-All reference images in `mood-boards/frame-semi-realistic/`, `mood-boards/australia-watercolor/`,
-and `mood-boards/china-ink-wash/` were sourced from **Unsplash** (https://unsplash.com),
-which grants free use under the Unsplash License (use, copy, modify, distribute — including
-for commercial purposes — without permission or attribution required).
-See https://unsplash.com/license for full terms.
+```
+photorealistic cinematic realism, live-action film quality, warm naturalistic color grade, shallow depth of field, authentic human expressions and real human skin, natural lighting, subtle film grain, Chloé Zhao aesthetic, slightly softer memory grade with faint warm haze suggesting recollection
+```
 
-No Getty, Shutterstock, or other copyrighted stock imagery was used.
-The image files themselves are excluded from version control (see `.gitignore`:
-`mood-boards/**/*.jpg|png|webp`); only this notes file is tracked.
+## Universal negative prompt
+
+Appended to every shot's negative prompt to block common failure modes and prevent any drift away from photorealism:
+
+```
+animated, cartoon, anime, painted, watercolor, oil painting, ink-wash, illustration style, CGI look, plastic skin, uncanny valley faces, distorted fingers, six-fingered hands, modern logos, text artifacts, cluttered background, harsh contrast
+```
+
+## Why a single photorealistic style for the whole film
+
+Keeping one consistent cinematic look across both present-day and memory scenes makes the memories feel like real recollections rather than fantasy sequences. The characters, their faces, and the moments they share carry the emotional weight — not a stylized medium. The subtle warm haze on memory shots is enough to tell the viewer "this is a memory" while keeping the people and places grounded and believable.

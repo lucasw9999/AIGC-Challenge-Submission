@@ -25,10 +25,7 @@ submission/
 │   ├── video-summary.md                   ← 150-word summary (for submission form)
 │   ├── sample-prompts.md                  ← 1-2 key prompts (for submission form)
 │   ├── shot-list.md                       ← all 16 shots with embedded prompts
-│   ├── v9-assembly-notes.md               ← notes on the final cut
-│   └── superpowers/
-│       ├── specs/…design.md               ← original design specification
-│       └── plans/…plan.md                 ← original 20-task implementation plan
+│   └── v9-assembly-notes.md               ← notes on the final cut
 ├── prompts/                               ← 16 shot prompts + 16 negative prompts
 │   ├── shot-01.txt … shot-16.txt
 │   └── shot-01.neg.txt … shot-16.neg.txt

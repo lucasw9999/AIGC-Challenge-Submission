@@ -104,15 +104,11 @@ I opened a session with Claude Opus 4.7 and shared the competition URL. The AI:
 - Asked structured questions about my real life one at a time
 - Proposed three candidate narrative structures with trade-offs; I chose "One Song, Three Homes"
 - Proposed three candidate visual tones; I chose photorealistic cinematic
-- Wrote a full design specification committed to version control
-
-**Output:** `docs/superpowers/specs/2026-05-09-one-song-three-homes-design.md`
+- Wrote a full design specification that I reviewed and approved
 
 ### Phase 2 — Planning (Superpowers plugin · `writing-plans` skill)
 
-The AI converted the approved design into an executable 20-task implementation plan covering: bootstrap, capability research, mood boards, shot list, smoke tests, full generation by vignette, audio production, editing, verification, and submission prep.
-
-**Output:** `docs/superpowers/plans/2026-05-09-one-song-three-homes-plan.md`
+The AI converted the approved design into an executable implementation plan covering: project bootstrap, cloud API capability probe, mood boards, shot list, smoke tests, full generation, audio production, editing, verification, and submission prep.
 
 ### Phase 3 — Execution (Superpowers plugin · `subagent-driven-development` skill)
 
@@ -238,11 +234,6 @@ Each shot was generated from a specific prompt + negative prompt. These are the 
 | 14 | Return — wide shot of me playing | `prompts/shot-14.txt` | `prompts/shot-14.neg.txt` |
 | 15 | Elder audience member's warm smile | `prompts/shot-15.txt` | `prompts/shot-15.neg.txt` |
 | 16 | Final phrase, bow lifting (slow-mo) | `prompts/shot-16.txt` | `prompts/shot-16.neg.txt` |
-
-### Design and plan (AI-authored, approved by me)
-
-- `docs/superpowers/specs/2026-05-09-one-song-three-homes-design.md` — design specification, produced by the Superpowers `brainstorming` skill
-- `docs/superpowers/plans/2026-05-09-one-song-three-homes-plan.md` — 20-task implementation plan, produced by the `writing-plans` skill
 
 ### Assembly pipeline (reproducible source)
 
