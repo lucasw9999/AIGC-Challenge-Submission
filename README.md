@@ -44,7 +44,7 @@ submission/
 ## Tools referenced
 
 - Claude Opus 4.7 (Anthropic) — orchestrating AI that wrote prompts, called the video model, and assembled the film
-- Google Veo 3.1 (`veo-3.1-generate-001`) — video-generation model
+- Google Veo 3.1 — video-generation model
 - fluidsynth + FluidR3 GM SoundFont (MIT License) — music synthesis
 - Wikimedia Commons — public-domain MIDI source
 - ffmpeg — video and audio assembly

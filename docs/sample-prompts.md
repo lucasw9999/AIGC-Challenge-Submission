@@ -37,6 +37,6 @@ elderly grandmother, creepy old man, food-offering, Western-feature adult or chi
 - Shot 04 is the visual and emotional center of the film — the bow touching the string is the moment memories begin. It shows the sustained-moment prompt style, and the cinematic detail I specified (lens, Kelvin lighting, dust motes, camera push magnitude).
 - Shot 09 shows how dialogue was embedded directly into the prompt — the Mandarin line is written into the prompt text, and Google Veo 3.1 generated lip-synced Mandarin speech alongside the visuals. This is the kind of AI capability I wanted to demonstrate.
 
-Model used for all shots: **Google Veo 3.1** (`veo-3.1-generate-001`) at 1080p / 8 seconds / 16:9.
+Model used for all shots: **Google Veo 3.1** at 1080p / 8 seconds / 16:9.
 
 All 16 shot prompts are available in the `prompts/` folder of the project submission.

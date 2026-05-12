@@ -1,6 +1,6 @@
 # Shot List — One Song, Three Homes
 
-All 16 shots were generated with **Google Veo 3.1** (`veo-3.1-generate-001`) at 1080p / 16:9 / 8 seconds, using the prompt and negative-prompt files under `prompts/`. The full film runs 2:27.
+All 16 shots were generated with **Google Veo 3.1** at 1080p / 16:9 / 8 seconds, using the prompt and negative-prompt files under `prompts/`. The full film runs 2:27.
 
 ## Running order
 
@@ -33,7 +33,7 @@ Timings above are approximate.
 Each shot was produced by sending its `prompts/shot-NN.txt` and `prompts/shot-NN.neg.txt` to the Veo 3.1 cloud API's `predictLongRunning` endpoint, polling until the long-running operation completed, and saving the returned MP4 into `generated/shot-NN/take01.mp4`.
 
 **API parameters used for every shot:**
-- `model` = `veo-3.1-generate-001`
+- `model` = Google Veo 3.1
 - `resolution` = `1080p`
 - `aspectRatio` = `16:9`
 - `durationSeconds` = `8`
